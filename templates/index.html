@@ -1,9 +1,8 @@
 
 <!-- TODO: Extend 'base.html' and put content into a block 'body' to match -->
-{% extends "base.html" %}
-
-{% block body %}
-
+{% extends 'base.html' %}
+{% block content %}
+    <h1>{% block title %}GIF-Search{% endblock %}</h1>
 {% endblock %}
 <!-- TODO: Make an HTML form containing a search box and a submit button to add
     the search term to the query string -->
