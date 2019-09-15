@@ -1,17 +1,28 @@
+
 <!DOCTYPE html>
 
 <!-- TODO: Extend 'base.html' and put content into a block 'body' to match -->
 
 {% extends 'base.html' %}
-{% block content %}
-    <h1>{% block title %}GIF-Search{% endblock %}</h1>
 
-{% endblock %}
+{% block content%}
+
 <!-- TODO: Make an HTML form containing a search box and a submit button to add
-    the search term to the query string -->
+   the search term to the query string -->
 
+
+    <p>
+        Search for a Gif
+        <input type="text" name="name"/>
+    </p>
+{%endblock%}
+
+
+<!--object.results.media.url -->
 
 
 <!-- TODO: Make a for loop to loop over GIFs passed in from the server -->
+
+
 
 <!-- TODO: For each gif, include the 'gif.html' template to display it -->

@@ -20,6 +20,7 @@ def index():
     gif_json = gif_json["results"]
     # TODO: Render the 'index.html' template, passing the gifs as a named parameter
 
+
     return render_template(
         'index.html',
         gif_list = gif_json)
