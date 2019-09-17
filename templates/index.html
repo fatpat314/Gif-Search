@@ -14,14 +14,14 @@
         <input type="text" gif_list = gif_json/>
         <button type="submit">Submit</button>
     </p>
-{%endblock%}
+{% endblock %}
 
 
 <!--object.results.media.url -->
 
 
 <!-- TODO: Make a for loop to loop over GIFs passed in from the server -->
-
-
-
+{% for gif in gif_json %}
 <!-- TODO: For each gif, include the 'gif.html' template to display it -->
+{% include 'gif.html' %}
+{% endfor %}
