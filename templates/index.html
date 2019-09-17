@@ -21,8 +21,10 @@
 
 
 <!-- TODO: Make a for loop to loop over GIFs passed in from the server -->
-{% for gif in gif_json %}
+
+{% for gif in gif_list %}
 <!-- TODO: For each gif, include the 'gif.html' template to display it -->
 {% include 'gif.html' %}
 {% endfor %}
+
 {% endblock %}
