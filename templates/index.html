@@ -22,9 +22,11 @@
 
 <!-- TODO: Make a for loop to loop over GIFs passed in from the server -->
 
+<div class="gifs_grid">
 {% for gif in gif_list %}
 <!-- TODO: For each gif, include the 'gif.html' template to display it -->
 {% include 'gif.html' %}
 {% endfor %}
 
+</div>
 {% endblock %}

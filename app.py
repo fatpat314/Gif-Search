@@ -11,7 +11,7 @@ def index():
     # TODO: Extract query term from url
     search_term = request.args.get('search_term')
     # TODO: Make 'params' dict with query term and API key
-    params = {"q": search_term, "key": "FSRGXSUXH8KT", "limit":10}
+    params = {"q": search_term, "key": "FSRGXSUXH8KT", "limit":12}
     # TODO: Make an API call to Tenor using the 'requests' library
     r = requests.get("https://api.tenor.com/v1/search", params=params)
     gif_json = r.json()
