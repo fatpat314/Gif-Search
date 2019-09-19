@@ -1,15 +1,17 @@
-h1{
+head{
     text-align: center;
-    color: #999
+    color: rgb(26, 231, 19)
 }
 
 body{
-    background-color: black;
+    background-color: rgb(6, 6, 15);
     text-align: center;
-    color: #999
+    font-size: 40px;
+    color: rgb(240, 12, 12)
 }
 p{
     text-align: center;
+    font-size: 25px;
     color: #999
 }
 
@@ -18,4 +20,9 @@ p{
    grid-template-columns: 1fr 1fr 1fr;
    grid-gap: 5px;
     
+}
+.search_box{
+font-size: 20px;
+display: inline-block;
+
 }
