@@ -27,10 +27,14 @@
 <!-- TODO: Make a for loop to loop over GIFs passed in from the server -->
 
 <div class="gifs_grid">
+{% if gif_list %}
 {% for gif in gif_list %}
 <!-- TODO: For each gif, include the 'gif.html' template to display it -->
 {% include 'gif.html' %}
 {% endfor %}
+{% else %}
+    <h1> No Gif's Found </h1>
+    {% endif %}
 
 </div>
 {% endblock %}

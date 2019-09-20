@@ -9,6 +9,11 @@ body{
     font-size: 40px;
     color: rgb(240, 12, 12)
 }
+
+h1{
+    text-align: center;
+}
+
 p{
     text-align: center;
     font-size: 25px;
@@ -19,7 +24,7 @@ p{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    grid-gap: 5px;
-    
+
 }
 .search_box{
 font-size: 20px;
