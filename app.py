@@ -23,3 +23,6 @@ def index():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+# For some reason the background image does not show up in Chrome or Safari.
+# Works fine in Firefox 
